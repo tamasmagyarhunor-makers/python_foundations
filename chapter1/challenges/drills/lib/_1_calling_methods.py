@@ -25,7 +25,7 @@
 #   Returns: "HELLO WORLD"
 def block_caps_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    return string.upper()
 
 
 
@@ -35,7 +35,7 @@ def block_caps_a_string(string):
 #   Returns: "hello world"
 def lower_case_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    return string.lower()
 
 
 # Purpose: return the length of the string
@@ -43,8 +43,9 @@ def lower_case_a_string(string):
 #   Call:    length_of_a_string("hello")
 #   Returns: 5
 def length_of_a_string(string):
+    # print('we re printing from _1_calling_methods.py line:46')
     # your code goes here (delete the pass below)
-    pass
+    return len(string)
 
 
 # Purpose: return the string reversed
